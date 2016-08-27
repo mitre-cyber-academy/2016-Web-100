@@ -1,5 +1,3 @@
-**Not Complete - Attacker needs static IP (Forum.rb line 28) & Forum needs static IP (Attacker.rb line 5)**
-
 XSS is a challenge where competitors have to look into the HTML source code to find where an XSS attack is sending data.
 
 There are two servers.  "Forum" is where the competitors start and the XSS attack is stored.  "Attacker" is the server 

